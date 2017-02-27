@@ -2,3 +2,4 @@ jenkins_home
 .idea
 downloads
 .DS_Store
+gitlab/volumes
