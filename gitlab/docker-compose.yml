@@ -7,7 +7,7 @@ services:
     command:
     - --loglevel warning
     volumes:
-    - $PWD/volumes/redis:/var/lib/redis:gitlabZ
+    - $PWD/volumes/redis:/var/lib/redis:Z
 
   postgresql:
     restart: always
