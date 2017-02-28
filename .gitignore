@@ -3,3 +3,4 @@ jenkins_home
 downloads
 .DS_Store
 gitlab/volumes
+gogs/volumes
