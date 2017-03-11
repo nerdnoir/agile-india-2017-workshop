@@ -1,0 +1,11 @@
+{
+  "name": "cd-workshop-sample-app",
+  "version": "1.0.0",
+  "description": "A sample application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Laribee",
+  "license": "MIT"
+}
