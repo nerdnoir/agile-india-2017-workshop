@@ -1,0 +1,19 @@
+gogs:
+  image: gogs/gogs:latest
+  ports:
+   - "3000:3000"
+   - "10022:22"
+  volumes:
+   - ./data:/data
+drone:
+  image: drone/drone:0.4
+  ports:
+  - "80:8000"
+  environment:
+    REMOTE_DRIVER: gogs
+    REMOTE_CONFIG: http://gogs:3000?open=true
+  volumes:
+   - "/var/run/docker.sock:/var/run/docker.sock"
+   - "./drone:/var/lib/drone"
+  links:
+    - gogs
