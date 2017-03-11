@@ -4,3 +4,4 @@ downloads
 .DS_Store
 gitlab/volumes
 gogs/volumes
+drone-gogs/data
