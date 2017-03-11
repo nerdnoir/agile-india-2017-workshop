@@ -1,6 +1,6 @@
 FROM jenkins
-MAINTAINER james@example.com
-ENV REFRESHED_AT 2016-06-01
+MAINTAINER dave@nerdnoir.com
+ENV REFRESHED_AT 2017-03-10
 USER root
 RUN apt-get -qqy update; apt-get install -qqy sudo
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
