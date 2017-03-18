@@ -4,7 +4,7 @@ gogs:
    - "10021:3000"
    - "10022:22"
   volumes:
-   - ./data:/data
+   - ./gogs_data1:/data
 drone:
   image: drone/drone:0.4
   ports:
